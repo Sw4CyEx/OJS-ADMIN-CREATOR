@@ -4,7 +4,7 @@ A modern, security-focused admin panel for Open Journal Systems (OJS) with a stu
 
 ![Matrix Theme](https://img.shields.io/badge/Theme-Matrix-00ff00?style=for-the-badge)
 ![PHP](https://img.shields.io/badge/PHP-7.4+-777BB4?style=for-the-badge&logo=php)
-![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
+![License](https://img.shields.io/github/license/pigeonposse/onlyfit?style=for-the-badge&color=green&logoColor=white)
 
 ## Features
 
