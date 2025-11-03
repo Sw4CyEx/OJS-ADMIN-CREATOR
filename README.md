@@ -29,7 +29,6 @@ A modern, security-focused admin panel for Open Journal Systems (OJS) with a stu
 - **CSRF Protection** - Form validation and security checks
 
 ### Monitoring & Logging
-- **Discord Integration** - Real-time notifications for all admin actions
 - **Activity Tracking** - Complete audit trail of user changes
 - **Statistics Dashboard** - Visual overview of user metrics
 - **Action Logging** - Detailed logs with timestamps and user info
@@ -106,13 +105,6 @@ Default credentials will be your existing OJS admin account.
 - **Reset Password**: Click "RESET PWD", new password generated automatically
 - **Delete User**: Click "DELETE", confirm action in modal
 
-### Monitoring
-All actions are logged to your Discord channel with:
-- Action type and timestamp
-- User details (username, email, role)
-- Admin who performed the action
-- Direct link to the admin panel
-
 ## 🔧 Configuration
 
 ### Customizing Colors
@@ -152,8 +144,7 @@ if (time() - $_SESSION['last_activity'] > 1800) { // 1800 = 30 minutes
 3. **Restrict Access** - Use `.htaccess` or server config to limit IP access
 4. **Regular Updates** - Keep PHP and database software updated
 5. **Backup Database** - Regular backups before making bulk changes
-6. **Monitor Logs** - Review Discord logs for suspicious activity
-7. **File Permissions** - Ensure proper file permissions (644 for PHP files)
+6. **File Permissions** - Ensure proper file permissions (644 for PHP files)
 
 ## Screenshots
 
