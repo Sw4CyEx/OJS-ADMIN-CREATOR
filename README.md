@@ -1,4 +1,4 @@
-# 🔐 OJS Admin Panel - Matrix Edition
+# OJS Admin Panel - Matrix Edition
 
 A modern, security-focused admin panel for Open Journal Systems (OJS) with a stunning Matrix-themed interface featuring glitch effects and real-time monitoring.
 
@@ -6,42 +6,42 @@ A modern, security-focused admin panel for Open Journal Systems (OJS) with a stu
 ![PHP](https://img.shields.io/badge/PHP-7.4+-777BB4?style=for-the-badge&logo=php)
 ![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
 
-## ✨ Features
+## Features
 
-### 🎨 UI/UX
+### UI/UX
 - **Matrix Rain Background** - Animated falling characters creating an immersive cyberpunk atmosphere
 - **Glitch Effects** - Interactive glitch animations on buttons, inputs, and cards
 - **Security Terminal Aesthetic** - Grid overlays, scanning lines, and pulsing indicators
 - **Responsive Design** - Fully optimized for desktop and mobile devices
 - **Modern Dashboard** - Clean, intuitive interface with real-time statistics
 
-### 👥 User Management
+### User Management
 - **Create Users** - Add new Admin or Manager accounts with custom credentials
 - **Edit Roles** - Change user roles between Admin and Manager with one click
 - **Reset Passwords** - Generate secure random passwords for any user
 - **Delete Users** - Remove users with confirmation and audit logging
 - **User Statistics** - Real-time overview of total users and role distribution
 
-### 🔒 Security Features
+### Security Features
 - **Session Management** - Secure PHP sessions with timeout protection
 - **Password Hashing** - MD5 hashing compatible with OJS standards
 - **Access Control** - Role-based permissions (Admin/Manager)
 - **Audit Logging** - All actions logged to Discord webhook
 - **CSRF Protection** - Form validation and security checks
 
-### 📊 Monitoring & Logging
+### Monitoring & Logging
 - **Discord Integration** - Real-time notifications for all admin actions
 - **Activity Tracking** - Complete audit trail of user changes
 - **Statistics Dashboard** - Visual overview of user metrics
 - **Action Logging** - Detailed logs with timestamps and user info
 
-### 🗄️ Database Support
+### Database Support
 - **OJS2 Compatible** - Full support for legacy OJS2 schema
 - **OJS3 Compatible** - Modern OJS3 database structure support
 - **Auto-Detection** - Automatically detects and adapts to your OJS version
 - **Multi-Database** - Handles both user and role tables seamlessly
 
-## 📋 Requirements
+## Requirements
 
 - PHP 7.4 or higher
 - MySQL/MariaDB database
@@ -49,7 +49,7 @@ A modern, security-focused admin panel for Open Journal Systems (OJS) with a stu
 - Discord webhook URL (for logging)
 - Web server (Apache/Nginx)
 
-## 🚀 Installation
+## Installation
 
 ### 1. Clone the Repository
 
@@ -85,7 +85,7 @@ Navigate to: `https://yourdomain.com/path/to/user.inc.php`
 
 Default credentials will be your existing OJS admin account.
 
-## 🎯 Usage
+## Usage
 
 ### Login
 1. Navigate to the admin panel URL
@@ -147,7 +147,7 @@ Change session timeout duration (default: 30 minutes):
 if (time() - $_SESSION['last_activity'] > 1800) { // 1800 = 30 minutes
 ```
 
-## 🛡️ Security Considerations
+## Security Considerations
 
 1. **Change Default Credentials** - Ensure you're using strong, unique passwords
 2. **HTTPS Only** - Always use SSL/TLS encryption in production
@@ -157,12 +157,12 @@ if (time() - $_SESSION['last_activity'] > 1800) { // 1800 = 30 minutes
 6. **Monitor Logs** - Review Discord logs for suspicious activity
 7. **File Permissions** - Ensure proper file permissions (644 for PHP files)
 
-## 📸 Screenshots
+## Screenshots
 
 <!-- Add your screenshots here -->
-![Login Page](screenshots/ojs-login.png)
-![Dashboard](screenshots/ojs-dashboard.png)
-![User Management](screenshots/ojs-dashboard-users.png)
+![Login Page](https://raw.githubusercontent.com/Sw4CyEx/OJS-ADMIN-CREATOR/refs/heads/main/ojs-login.png)
+![Dashboard](https://raw.githubusercontent.com/Sw4CyEx/OJS-ADMIN-CREATOR/refs/heads/main/ojs-dashboard.png)
+![User Management](https://raw.githubusercontent.com/Sw4CyEx/OJS-ADMIN-CREATOR/refs/heads/main/ojs-dashboard-users.png)
 
 ## 🤝 Contributing
 
@@ -189,33 +189,33 @@ Contributions are welcome! Please follow these steps:
 - Basic user management
 - Simple dashboard
 
-## 🐛 Known Issues
+## Known Issues
 
 - Matrix rain effect may impact performance on older devices
 - Some glitch effects may not work on Safari < 14
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👨‍💻 Author
+## Author
 
 Created with 💚 by Ayana
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Inspired by The Matrix movie franchise
 - Built for the Open Journal Systems community
 - Special thanks to all contributors
 
-## 📞 Support
+## Support
 
 For issues, questions, or suggestions:
 - Open an issue on GitHub
 - Contact: [Telegram](https://t.me/latief777)
 - Discord: ayana__
 
-## 🔗 Links
+## Links
 
 - [OJS Official Website](https://pkp.sfu.ca/ojs/)
 - [Documentation](https://docs.pkp.sfu.ca/)
