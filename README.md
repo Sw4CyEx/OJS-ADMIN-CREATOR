@@ -26,7 +26,6 @@ A modern, security-focused admin panel for Open Journal Systems (OJS) with a stu
 - **Session Management** - Secure PHP sessions with timeout protection
 - **Password Hashing** - MD5 hashing compatible with OJS standards
 - **Access Control** - Role-based permissions (Admin/Manager)
-- **Audit Logging** - All actions logged to Discord webhook
 - **CSRF Protection** - Form validation and security checks
 
 ### Monitoring & Logging
@@ -46,7 +45,6 @@ A modern, security-focused admin panel for Open Journal Systems (OJS) with a stu
 - PHP 7.4 or higher
 - MySQL/MariaDB database
 - OJS2 or OJS3 installation
-- Discord webhook URL (for logging)
 - Web server (Apache/Nginx)
 
 ## Installation
@@ -181,7 +179,6 @@ Contributions are welcome! Please follow these steps:
 - Edit role functionality
 - Enhanced dashboard with statistics
 - Improved mobile responsiveness
-- Discord webhook integration
 - Security enhancements
 
 ### Version 1.0.0
